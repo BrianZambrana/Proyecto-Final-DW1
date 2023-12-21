@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>Todos Contra Todos 2023</title>
+</head>
+<body class="bg-black bg-gradient text-white">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+        <div class="container-fluid">
+          <img src="../../../logo footer.png" width="150px" alt="">  
+          <a class="navbar-brand" href="#">Federacion Boliviana de Futbol</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../../../../index.html">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-house-door" viewBox="0 0 16 16">
+                    <path d="M8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4.5a.5.5 0 0 0 .5-.5v-4h2v4a.5.5 0 0 0 .5.5H14a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293zM2.5 14V7.707l5.5-5.5 5.5 5.5V14H10v-4a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5v4z"/>
+                  </svg>
+                  Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../../seleccion/seleccion.html">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chat-square-text-fill" viewBox="0 0 16 16">
+                        <path d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2h-2.5a1 1 0 0 0-.8.4l-1.9 2.533a1 1 0 0 1-1.6 0L5.3 12.4a1 1 0 0 0-.8-.4H2a2 2 0 0 1-2-2zm3.5 1a.5.5 0 0 0 0 1h9a.5.5 0 0 0 0-1zm0 2.5a.5.5 0 0 0 0 1h9a.5.5 0 0 0 0-1zm0 2.5a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1z"/>
+                      </svg>
+                  Seleccion Boliviana</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../../liga/clubes/clubes.html">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-building-fill" viewBox="0 0 16 16">
+                        <path d="M3 0a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h3v-3.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 .5.5V16h3a1 1 0 0 0 1-1V1a1 1 0 0 0-1-1zm1 2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5zm3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5zm3.5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5M4 5.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5zM7.5 5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5m2.5.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5zM4.5 8h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5m2.5.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5zm3.5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5"/>
+                      </svg>
+                  Clubes Liga</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../tigo/tigo.html">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trophy-fill" viewBox="0 0 16 16">
+                        <path d="M2.5.5A.5.5 0 0 1 3 0h10a.5.5 0 0 1 .5.5c0 .538-.012 1.05-.034 1.536a3 3 0 1 1-1.133 5.89c-.79 1.865-1.878 2.777-2.833 3.011v2.173l1.425.356c.194.048.377.135.537.255L13.3 15.1a.5.5 0 0 1-.3.9H3a.5.5 0 0 1-.3-.9l1.838-1.379c.16-.12.343-.207.537-.255L6.5 13.11v-2.173c-.955-.234-2.043-1.146-2.833-3.012a3 3 0 1 1-1.132-5.89A33.076 33.076 0 0 1 2.5.5m.099 2.54a2 2 0 0 0 .72 3.935c-.333-1.05-.588-2.346-.72-3.935zm10.083 3.935a2 2 0 0 0 .72-3.935c-.133 1.59-.388 2.885-.72 3.935"/>
+                      </svg>
+                  Copa Tigo 2023</a>
+              </li>
+>
+              <li class="nav-item">
+                <a class="nav-link" href="../../../../afionados/aficionados.html">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-arms-up" viewBox="0 0 16 16">
+                        <path d="M8 3a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3"/>
+                        <path d="m5.93 6.704-.846 8.451a.768.768 0 0 0 1.523.203l.81-4.865a.59.59 0 0 1 1.165 0l.81 4.865a.768.768 0 0 0 1.523-.203l-.845-8.451A1.492 1.492 0 0 1 10.5 5.5L13 2.284a.796.796 0 0 0-1.239-.998L9.634 3.84a.72.72 0 0 1-.33.235c-.23.074-.665.176-1.304.176-.64 0-1.074-.102-1.305-.176a.72.72 0 0 1-.329-.235L4.239 1.286a.796.796 0 0 0-1.24.998l2.5 3.216c.317.316.475.758.43 1.204Z"/>
+                      </svg>
+                  Aficionados</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+
+
+
+    <h1 class="text-center mt-5 " >PUNTAPIE INICIAL DE LA DIVISION</h1>
+    <h1 class="text-center mt-2 " >PROFESIONAL</h1>
+    <div style="text-align:center;">
+      <img  class="mt-5" src="../todos/images/todos.jpg">
+    </div>
+
+    
+      <p class="text-center mt-5" style="
+      color:rgb(0, 184, 76);
+      font-size: 15px; 
+      text-align: center;
+      font-family:Verdana, Geneva, Tahoma, sans-serif;
+      margin-left: 100px; 
+      margin-right: 100px;">Por primera vez en el fútbol boliviano, este 2023 se jugarán dos campeonatos de manera simultánea. La Liga (todos contra todos) arrancó hace un par de semanas y lleva dos fechas disputadas, mientras que la Copa (por series) se pondrá en marcha este martes.</p>
+      <p class="text-center" style="
+      color:rgb(0, 184, 76);
+      font-size: 15px; 
+      text-align: center;
+      font-family:Verdana, Geneva, Tahoma, sans-serif;
+      margin-left: 100px; 
+      margin-right: 100px;">Los 17 equipos otra cifra inédita en el balompié nacional tendrán que pelear en ambos frentes: algunos seguro priorizarán uno de los dos torneos, mientras que otros intentarán sumar la mayor cantidad de puntos en los dos.</p>
+      <p class="text-center" style="
+      color:rgb(0, 184, 76);
+      font-size: 15px; 
+      text-align: center;
+      font-family:Verdana, Geneva, Tahoma, sans-serif;
+      margin-left: 100px; 
+      margin-right: 100px;">La Copa, dividida en tres series (dos de seis y una de cinco equipos), se jugará entre semana, según anunciaron desde la Federación Boliviana de Fútbol, y se pondrá en marcha esta jornada.</p>
+      <p class="text-center" style="
+      color:rgb(0, 184, 76);
+      font-size: 15px; 
+      text-align: center;
+      font-family:Verdana, Geneva, Tahoma, sans-serif;
+      margin-left: 100px; 
+      margin-right: 100px;"><h2 class="text-center"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-trophy-fill" viewBox="0 0 16 16">
+  <path d="M2.5.5A.5.5 0 0 1 3 0h10a.5.5 0 0 1 .5.5c0 .538-.012 1.05-.034 1.536a3 3 0 1 1-1.133 5.89c-.79 1.865-1.878 2.777-2.833 3.011v2.173l1.425.356c.194.048.377.135.537.255L13.3 15.1a.5.5 0 0 1-.3.9H3a.5.5 0 0 1-.3-.9l1.838-1.379c.16-.12.343-.207.537-.255L6.5 13.11v-2.173c-.955-.234-2.043-1.146-2.833-3.012a3 3 0 1 1-1.132-5.89A33.076 33.076 0 0 1 2.5.5m.099 2.54a2 2 0 0 0 .72 3.935c-.333-1.05-.588-2.346-.72-3.935zm10.083 3.935a2 2 0 0 0 .72-3.935c-.133 1.59-.388 2.885-.72 3.935"/>
+</svg>LA COPA</h2></p>
+      <p class="text-center" style="
+      color:rgb(0, 184, 76);
+      font-size: 15px; 
+      text-align: center;
+      font-family:Verdana, Geneva, Tahoma, sans-serif;
+      margin-left: 100px; 
+      margin-right: 100px;">El Grupo A está conformado por Bolívar, Oriente Petrolero, Royal Pari, Wilstermann, Real Tomayapo y Libertad Gran Mamoré.</p>
+      <p class="text-center" style="
+      color:rgb(0, 184, 76);
+      font-size: 15px; 
+      text-align: center;
+      font-family:Verdana, Geneva, Tahoma, sans-serif;
+      margin-left: 100px; 
+      margin-right: 100px;">En el B se encuentran The Strongest, Guabirá, Palmaflor, Aurora y Real Santa Cruz.</p>
+      <p class="text-center" style="
+      color:rgb(0, 184, 76);
+      font-size: 15px; 
+      text-align: center;
+      font-family:Verdana, Geneva, Tahoma, sans-serif;
+      margin-left: 100px; 
+      margin-right: 100px;">Finalmente, en la serie C fueron emparejados Always Ready, Nacional Potosí, Blooming, Independiente, Universitario de Vinto y Vaca Diez.</p>
+      <p class="text-center" style="
+      color:rgb(0, 184, 76);
+      font-size: 15px; 
+      text-align: center;
+      font-family:Verdana, Geneva, Tahoma, sans-serif;
+      margin-left: 100px; 
+      margin-right: 100px;">Cada serie se disputará bajo la modalidad de todos contra todos en partidos de ida y vuelta, del que clasificarán los tres mejores de las series A y C y los dos primeros de la B.&nbsp;</p>
+      <p class="text-center" style="
+      color:rgb(0, 184, 76);
+      font-size: 15px; 
+      text-align: center;
+      font-family:Verdana, Geneva, Tahoma, sans-serif;
+      margin-left: 100px; 
+      margin-right: 100px;">La siguiente fase serán los octavos de final y se disputarán por eliminación directa o como futbolísticamente se conoce: “mata mata”.</p>
+      <p class="text-center" style="
+      color:rgb(0, 184, 76);
+      font-size: 15px; 
+      text-align: center;
+      font-family:Verdana, Geneva, Tahoma, sans-serif;
+      margin-left: 100px; 
+      margin-right: 100px;"><h2 class="text-center"> <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-award-fill" viewBox="0 0 16 16">
+  <path d="m8 0 1.669.864 1.858.282.842 1.68 1.337 1.32L13.4 6l.306 1.854-1.337 1.32-.842 1.68-1.858.282L8 12l-1.669-.864-1.858-.282-.842-1.68-1.337-1.32L2.6 6l-.306-1.854 1.337-1.32.842-1.68L6.331.864z"/>
+  <path d="M4 11.794V16l4-1 4 1v-4.206l-2.018.306L8 13.126 6.018 12.1z"/>
+</svg>PREMIOS</h2></p>
+      <p class="text-center" style="
+      color:rgb(0, 184, 76);
+      font-size: 15px; 
+      text-align: center;
+      font-family:Verdana, Geneva, Tahoma, sans-serif;
+      margin-left: 100px; 
+      margin-right: 100px;">Pese a ser un torneo que en el pasado dio buenos resultados y generó mayor expectativa, la Copa solo repartirá un premio: el boleto de Bolivia 4 para la Copa Libertadores de América de 2024.&nbsp;</p>
+      <p class="text-center" style="
+      color:rgb(0, 184, 76);
+      font-size: 15px; 
+      text-align: center;
+      font-family:Verdana, Geneva, Tahoma, sans-serif;
+      margin-left: 100px; 
+      margin-right: 100px;">El equipo que se adjudique esta plaza jugará desde la fase 1 del torneo continental.</p>
+      <p class="text-center" style="
+      color:rgb(0, 184, 76);
+      font-size: 15px; 
+      text-align: center;
+      font-family:Verdana, Geneva, Tahoma, sans-serif;
+      margin-left: 100px; 
+      margin-right: 100px;"><h2 class="text-center"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-plus-circle-fill" viewBox="0 0 16 16">
+  <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M8.5 4.5a.5.5 0 0 0-1 0v3h-3a.5.5 0 0 0 0 1h3v3a.5.5 0 0 0 1 0v-3h3a.5.5 0 0 0 0-1h-3z"/>
+</svg>PARA SUMAR</h2></p>
+      <p class="text-center" style="
+      color:rgb(0, 184, 76);
+      font-size: 15px; 
+      text-align: center;
+      font-family:Verdana, Geneva, Tahoma, sans-serif;
+      margin-left: 100px; 
+      margin-right: 100px;">Los puntos obtenidos en la fase de grupos se sumarán a los de la Liga para armar una tabla del punto promedio, que al final de la temporada repartirá cinco plazas internacionales, pero también será decisiva para los descensos (dos directos y uno indirecto).</p>
+      <p class="text-center" style="
+      color:rgb(0, 184, 76);
+      font-size: 15px; 
+      text-align: center;
+      font-family:Verdana, Geneva, Tahoma, sans-serif;
+      margin-left: 100px; 
+      margin-right: 100px;">Los partidos que se disputen desde los octavos de final no serán contabilizados para la tabla del punto promedio.</p>
+      <p class="text-center" style="
+      color:rgb(0, 184, 76);
+      font-size: 15px; 
+      text-align: center;
+      font-family:Verdana, Geneva, Tahoma, sans-serif;
+      margin-left: 100px; 
+      margin-right: 100px;"><strong>Los partidos  1ra. Fecha</strong></p>
+
+      <h1 class="text-center mt-5"> <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-calendar-event-fill" viewBox="0 0 16 16">
+        <path d="M4 .5a.5.5 0 0 0-1 0V1H2a2 2 0 0 0-2 2v1h16V3a2 2 0 0 0-2-2h-1V.5a.5.5 0 0 0-1 0V1H4zM16 14V5H0v9a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2m-3.5-7h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5"/>
+      </svg>FECHAS</h1>
+
+      
+      <p class="text-center" style="font-size: 40px;">Martes 14 de febrero</p>
+    
+      <p  class="text-center" >20:00 Blooming vs. Vaca Diez</p>
+ 
+      <p  class="text-center" style="font-size: 40px;">Miércoles 15 de febrero</p>
+
+      <p  class="text-center" >15:00 Royal Pari vs. Gran Mamoré</p>
+
+      <p  class="text-center" >18:00 Independiente vs. Always Ready</p>
+
+      <p  class="text-center" >20:30 Oriente P.&nbsp; vs. Real Tomayapo</p>
+
+      <p  class="text-center" style="font-size: 40px;">Miércoles 22 de febrero</p>
+
+      <p  class="text-center" ">15:00 Guabirá vs. Real Santa Cruz</p>
+
+      <p  class="text-center" ">20:00 Aurora vs. The Strongest</p>
+
+      <p  class="text-center" style="font-size: 40px;">Jueves 23 de febrero</p>
+
+      <p  class="text-center" >20:00 Wilstermann vs. Bolívar</p>
+
+      <p  class="text-center" style="font-size: 40px;">Domingo 19 de marzo</p>
+
+      <p  class="text-center" >15:00 Nacional Potosí vs. U de Vinto</p>
+
+
+
+
+
+<div class="row mt-5">
+    <div class="col justify-center text-center">
+      <img src="../../../logo footer.png" width="150 px" class="" alt=""/>
+      <h3>Todos los Derechos Reservados © 2023 FBF S.R.L.</h3>
+      <h6>
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+          <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
+        </svg>
+      Federación Boliviana de Fútbol</h6>
+      <h6>
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
+          <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"/>
+        </svg>
+      Teléfonos: (591-4) 4244982 / 4245890 / 4281873</h6>
+      <h6>
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+          <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6"/>
+        </svg>
+      Av. Libertador Bolivar Nro 1168, 4to Piso</h6>
+      <h6>
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-fill" viewBox="0 0 16 16">
+          <path fill-rule="evenodd" d="M4 4a4 4 0 1 1 4.5 3.969V13.5a.5.5 0 0 1-1 0V7.97A4 4 0 0 1 4 3.999zm2.493 8.574a.5.5 0 0 1-.411.575c-.712.118-1.28.295-1.655.493a1.319 1.319 0 0 0-.37.265.301.301 0 0 0-.057.09V14l.002.008a.147.147 0 0 0 .016.033.617.617 0 0 0 .145.15c.165.13.435.27.813.395.751.25 1.82.414 3.024.414s2.273-.163 3.024-.414c.378-.126.648-.265.813-.395a.619.619 0 0 0 .146-.15.148.148 0 0 0 .015-.033L12 14v-.004a.301.301 0 0 0-.057-.09 1.318 1.318 0 0 0-.37-.264c-.376-.198-.943-.375-1.655-.493a.5.5 0 1 1 .164-.986c.77.127 1.452.328 1.957.594C12.5 13 13 13.4 13 14c0 .426-.26.752-.544.977-.29.228-.68.413-1.116.558-.878.293-2.059.465-3.34.465-1.281 0-2.462-.172-3.34-.465-.436-.145-.826-.33-1.116-.558C3.26 14.752 3 14.426 3 14c0-.599.5-1 .961-1.243.505-.266 1.187-.467 1.957-.594a.5.5 0 0 1 .575.411"/>
+        </svg>
+      Cochabamba - Bolivia</h6>
+    </div>
+</div>
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
